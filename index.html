@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>UpInside Treinamentos - Busca CEP!</title>
+        
+        <style>
+            html,body{text-align: center; padding: 2%;}
+            label{display: block; margin-bottom: 10px;}
+            input{padding: 10px; width: 20%;}
+            div{margin-top: 50px;}
+        </style>
+        
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="buscaCep.js"></script>
+    </head>
+    <body>
+        <form name="buscaCepUpInside" action="" method="post">            
+            <label>
+                <input type="text" class="j_getCep" placeholder="Cep:" required/>
+            </label>
+
+            <label class="right">
+                <input class="j_logradouro" type="text" placeholder="Nome da Rua:"/>
+            </label>
+
+            <label>
+                <input type="text" placeholder="Número:" required/>
+            </label>
+
+            <label class="right">
+                <input type="text" placeholder="Complemento:"/>
+            </label>
+
+            <label>
+                <input class="j_bairro" type="text" placeholder="Bairro:"/>
+            </label>
+
+            <label class="right">
+                <input class="j_localidade" type="text" placeholder="Cidade:"/>
+            </label>
+
+            <label>
+                <input class="j_uf" type="text" placeholder="UF do Estado:"/>
+            </label>
+        </form>
+        
+        <div><a href="https://www.upinside.com.br" title="UpInside Treinamentos">UpInside Treinamentos</a></div>
+    </body>
+</html>
