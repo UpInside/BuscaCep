@@ -1,6 +1,5 @@
 # BuscaCep
 Busca em CEP em HTTPS com jSON (ViaCEP)
 
-@ upinside.com.br
-
-@ viacep.com.br
+CODE BY Robson V. Leite - upinside.com.br
+API BY viacep.com.br
