@@ -2,7 +2,7 @@
 $(function () {
     $('.j_getCep').change(function () {
         var cep = $(this).val().replace('-', '').replace('.', '');
-        if (cep.length == '8') {
+        if (cep.length === 8) {
             $.get("https://viacep.com.br/ws/" + cep + "/json", function (data) {
                 if (!data.erro) {
                     $('.j_bairro').val(data.bairro);
